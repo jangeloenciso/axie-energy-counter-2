@@ -8,5 +8,14 @@
     </head>
     <body>
         <h1>VUE REBUILD</h1>
+
+        <div id="app">
+            <h1>Energy: {{ energy }}</h1>
+            <button @click="addEnergy">Add</button>
+            <button @click="reduceEnergy">Reduce</button>
+            <button @click="reset">Reset</button>
+        </div>
+
+        <script src="app.js"></script>
     </body>
 </html>
